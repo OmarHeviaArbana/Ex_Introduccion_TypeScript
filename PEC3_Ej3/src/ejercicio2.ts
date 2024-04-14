@@ -1,12 +1,11 @@
-Sustituye /***/ por las instrucciones adecuadas que cumplan las operaciones 
-y salidas indicadas en los comentarios.
-
-
 interface Plane{
     model:string,
     npassengers:number
 }
-/***/
+
+interface HangarHash {
+    [key: string]: Plane;
+}
 
 let myHangar:HangarHash = {}
 
@@ -17,6 +16,10 @@ myHangar['123Z']={
 myHangar['H789']={ 
     model:'boeing',
     npassengers:151
+}
+
+for (let key in myHangar) {
+    console.log(`${key}:${myHangar[key].model}(${myHangar[key].npassengers})`);
 }
 
 /** Print following lines (going through the object)
