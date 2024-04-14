@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+
+    // Se establece la versión de ECMAScript a la que se compilará nuestro código TypeScript. En este, traducir código fuente de TypeScript a JavaScript para que pueda ser ejecutado en un navegador. Concretamente, para este ejercicio, se compilará en ECMAScript 2015.
+    "target": "es2015", 
+
+    // Se especifica qué sistema de modulos se utilizará para la compilación. Estos se utilizan para organizar y estructurar el código en módulos reutilizables. Los cuales a su vez   exportan funciones, clases, variables u otros elementos que pueden ser importados por otros módulos para su uso. En este caso, se utilizará un sistema de modulos commonJS que utiliza el ecosistema e NodeJS.
+    "module": "commonjs", 
+
+    // Se estable en qué directorio de nuestro proyecyo se ubicarán los archivos generado por la compilación. Aquí se establecen en la raíz del proyecto eb el archivos dist.
+    "outDir": "./dist",   
+
+    // Indica el origen del directorio de origen de los archivos de compilación. Todos los archivos TypeScript ubicados en este directorio serán utlizados para la compilación. En este caso, todos las carpetas, subcarpetas y archivos que se encuentren dentro del directorio raiz src.
+    "rootDir": "./src", 
+
+    // Mediante esta especificación, se indica que TypeScript debe realizar comprobaciones de manera estricta. Esto activa varias opciones: strictNullChecks que permite detectar errores relacionados con valores null o undefined; strictFunctionTypes que compruba la compatibilidad de los tipos de función de forma más estricta; strictBindCallApply que detecta errores en las llamadas a métodos bind, call y apply de JavaScript; y trictPropertyInitialization que hace que todas las propiedades de una clase se inicialicen correctamente en el constructor de la clase.
+    "strict": true,
+
+    // Permite la compilación incremental permitiendo que TypeScripe compile los archivos que han sido modificados desde la última compilación efectuada. Esta recompilación selectiva, puede ahorrar tiempos de compilación sobre todo en proyectos grandes y utiliza menos recursos de nuestro equipo.
+    "incremental": true,
+
+    // Nos indica la ubicación del archivo donde se almacenará la información de compilación incremental. Gracias a ello, TypeScript determina qué archivos necesitan ser recompilados.
+    "tsBuildInfoFile": "./buildcache",
+  }
+}
