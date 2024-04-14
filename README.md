@@ -13,3 +13,7 @@ ohevia@uoc.edu
 Omar Hevia Arbana
 
 ## Comentarios
+
+- Se ha instalado de manera global TypeScript mediante el comando npm install -g typescript.
+
+- Para realizar la compilación se debe, una vez en el directorio raiz de origen indicado en el *rootDir* tsconfig.json, utiliar el comando **tsc** para compilar. Esto nos genera un archivo js en el *outDir* del tsconfig.json. Para comprobar el resultado de los ejercicios de PEC3_EJ3 debemos introducir en terminal el comando **node ./dist/nombreArchivoJScompilacion.**
