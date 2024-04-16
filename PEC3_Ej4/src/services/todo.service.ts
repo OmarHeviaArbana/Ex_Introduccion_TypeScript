@@ -2,7 +2,7 @@ import Todo from './../models/todo.model';
 
 class TodoService {
   private todos: Todo[];
-  private onTodoListChanged: Function = () => {}; // Inicialización de la propiedad
+  private onTodoListChanged: Function = () => {}; 
 
   constructor() {
     const storedTodos = localStorage.getItem("todos");

@@ -87,7 +87,6 @@ import Todo from './../models/todo.model';
         deleteButton.textContent = "Delete";
         li.append(checkbox, span, deleteButton);
 
-        // Append nodes
         this.todoList.append(li);
       });
     }
