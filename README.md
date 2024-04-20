@@ -25,4 +25,4 @@ Omar Hevia Arbana
 
 - También, ejercicio PEC3_Ej4, he tenido problemas de compilación tras la generación del dist con el comando tsc. Si que realizaba la compilación de los archivos ts de los archivos de src, pero me daba un error en los archivos js compilados con los exports de las clases. Hasta que no he incluido el webpack para compilar todo y utilizar el build.js para el script del html, no he podido lanzar el servidor y ver la aplicación sin los errores en consola.
 
-- En el ejercicio PEC3_Ej4Al instalar de manera global webpack, he eliminado muchas dependencias del webpack de ejemplo. Simplemente con la importanción del path compila perfectamente. Por lo que, se puede observar que la configuración del module.export es bastante básica pero lo suficiente para realizar su cometido.
+- En el ejercicio PEC3_Ej4, al instalar de manera global webpack, he eliminado muchas dependencias del webpack de ejemplo. Simplemente con la importanción del path compila perfectamente. Por lo que, se puede observar que la configuración del module.export es bastante básica pero lo suficiente para realizar su cometido.
